@@ -397,3 +397,68 @@ footer li a{
 footer li a:hover{
     color: #f46e5f;
 }
+
+@media only screen and (max-width: 1024px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 50%;
+    }
+     [class*="col-12"] {
+        width: 100%;
+    }
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    
+    
+    
+    footer {
+        text-align: center;
+    }
+    
+    footer img {
+        width: 50%;
+    }
+    
+    .size{
+        width: auto;
+    }
+    
+    .right{
+        float: none;
+        text-align: center;
+    }
+    
+    h2{
+        margin-top: 20px;
+    }
+    
+    nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    nav li{
+    float: none;
+  }
+
+    nav li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+
+    nav li a:hover{
+    background-color: #fff;
+    color: #ea4f3d;
+}
+
+    
+}
